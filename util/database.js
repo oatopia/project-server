@@ -13,9 +13,9 @@ const connection = mysql.createConnection({
 connection.connect((err) => {
   if (err) throw err;
   console.log("sucsessfully");
-  connection.query("SELECT * FROM Scoring_Factors ", (err, res) => {
-    if (err) {
-      throw err;
+  connection.query("SELECT * FROM Scoring_Factors ", (error, res) => {
+    if (error) {
+      console.log("error in select",error)
     } else {
       console.log(res);
       fs.w;
