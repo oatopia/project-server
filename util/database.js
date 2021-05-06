@@ -13,7 +13,7 @@ const connection = mysql.createConnection({
 connection.connect((err) => {
   if (err){
     console.log("error at connection",err)
-    throw err;
+    // throw err;
   } else{
     console.log("sucsessfully");
   connection.query("SELECT * FROM Scoring_Factors ", (error, res) => {
