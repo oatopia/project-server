@@ -11,8 +11,11 @@ const connection = mysql.createConnection({
 });
 
 connection.connect((err) => {
-  if (err) throw err;
-  console.log("sucsessfully");
+  if (err){
+    console.log("error at connection",err)
+    throw err;
+  } else{
+    console.log("sucsessfully");
   connection.query("SELECT * FROM Scoring_Factors ", (error, res) => {
     if (error) {
       console.log("error in select",error)
@@ -25,6 +28,8 @@ connection.connect((err) => {
       });
     }
   });
+  }
+  
 });
 
 export default connection;
