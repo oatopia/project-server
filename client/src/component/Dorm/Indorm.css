@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+}
+
+.containIn {
+  min-height: 100vh;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.Indorm {
+  margin-top: 30px;
+  display: block;
+  background-color: white;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #0475ad;
+  margin-bottom: 10px;
+}
+
+h4 {
+  color: #00689b;
+  margin-top: 10px;
+}
+
+div.Indorm > input {
+  /* width: 100%; */
+  margin-bottom: 10px;
+}
+
+.addimg {
+  width: 75%;
+  height: 130px;
+  border-radius: 10px;
+  border: none;
+  background-color: #e0e0e0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  color: rgb(104, 95, 95);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.save {
+  display: block;
+  width: 100px;
+  height: 35px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-radius: 5px;
+  /* border-color: #1ba0e2; */
+  font-size: 20px;
+  color: aliceblue;
+  background-color: #1ba0e2;
+}
+
+select {
+  margin-bottom: 10px;
+}
+
+.facilities {
+  display: flex;
+  justify-content: space-around;
+}
+
+input {
+  display: inline-block;
+}
+h2 {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.chong-one {
+  width: 250px;
+  height: 30px;
+  color: rgb(87, 80, 80);
+  font-size: 18px;
+}
+
+.chong-address {
+    display: block;
+    resize: none;
+    width: 800px;
+    height: 80px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(87, 80, 80);
+    background-color: #e0e0e0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+}
+
+.chong-three {
+  width: 280px;
+  height: 30px;
+  color: rgb(87, 80, 80);
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.chong-detail {
+  display: block;
+  resize: none;
+  width: 800px;
+  height: 100px;
+  border-radius: 5px;
+  border: none;
+  color: rgb(87, 80, 80);
+  background-color: #e0e0e0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+}
+.type-dorm {
+  width: 180px;
+  height: 30px;
+  color: rgb(87, 80, 80);
+  font-size: 18px;
+}
+
+.button-contain {
+  text-align: center;
+}
+
+.addimgicon {
+  display: inline-block;
+  width: 50px;
+  height: 35px;
+  vertical-align: -10px;
+  margin-right: 10px;
+}
+
+.baht {
+  display: inline-block;
+  color: #00689B;
+}
+
+.pay {
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+#p1 {
+  margin-right: 20px;
+}
+
+#p2 {
+  margin-right: 62px;
+}
+
+#p3 {
+  margin-right: 60px;
+}
+
+#p4 {
+  margin-right: 51px;
+}
+
+.space{
+    margin-bottom: 10px;
+}
+
+.space2{
+    margin-bottom: 1.5px;
+}
+
+.chong-pay{
+    width: 100px;
+    height: 30px;
+    color: rgb(87, 80, 80);
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.file-input{
+  display: block;
+  width: 200px;
+  height: 50px;
+}

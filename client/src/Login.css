@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+  }
+
+  .containerlog{
+      background-image: url("./img/backgroundrl1.jpg");
+      background-size: cover;
+      min-height: 100vh;
+      width: 100%;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      min-height: 100vh;
+      
+  }
+  .container1{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  .containerlist{
+      padding: 60px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+        border-radius: 10px 0 0 10px;
+      background-color: white;
+      box-shadow: 2px 10px 10px 0 rgba(0, 0, 0, 0.2);
+     
+  }
+
+  .img{
+      border-radius: 0 10px 10px 0;
+      box-shadow: 2px 10px 10px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  #heaed-login{
+    color: #0E57C5;
+    margin-left: 25px;
+    margin-bottom: 40px;
+  }
+
+
+  p{
+      color: #464646;
+      font-size: 20px;
+  }
+
+  input.text-input{
+    background-color: #E8E8E8;
+    border: none;
+    border-radius: 3px;
+    height: 27px;
+    box-shadow: 0px 2px 4px 0 rgba(0, 0, 0, 0.2);
+    width: 200px;
+    
+  }
+  
+  .text-input:focus{
+      outline-color:  #A2A2A2;
+  }
+
+
+  .buttonregister{
+      width: 200px;
+      height: 50px;
+      background-color: #0E57C5 ;
+      color: white;
+      font-size: 25px;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }

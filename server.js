@@ -12,7 +12,7 @@ import path from 'path'
 import fileupload from 'express-fileupload'
 const __dirname = path.resolve();
 const app = express();
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 8080;
 app.use(cors());
 app.use(express.json());
 app.use(bodyparser.json());
@@ -23,6 +23,15 @@ app.use(fileupload());
 app.get( '/', ( req, res ) => {
     res.render('home')
 } );
+
+if (process.env.NODE_ENV === 'production') {
+    // Serve any static files
+    app.use(express.static(path.join(__dirname, 'client/build')));
+  // Handle React routing, return all requests to React app
+    app.get('*', function(req, res) {
+      res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
+    });
+  }
 // app.get('/factor',(req,res)=>{
 //     db.query("SELECT * FROM factor",(err,result)=>{
 //         if(err){

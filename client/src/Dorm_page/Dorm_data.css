@@ -1,0 +1,37 @@
+.dormdata-container{
+    /* background-image: url("./img/operatorbackground.jpg"); */
+    background-color: wheat;
+    background-size: cover;
+    min-height: 200vh;
+    
+}
+
+.box-dorm-data{
+    width: 90%;
+    background-color:lightblue;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box-inner-data{
+    margin-top: 20px;
+    text-align: start;
+    /* font-size: 58px; */
+}
+
+.img-dorm-data{
+    width: 500px;
+    height: 450px;
+}
+
+.box-fac-data{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-2-inner-data{
+    margin-top: 10px;
+    text-align: start;
+}

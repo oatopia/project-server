@@ -1,0 +1,37 @@
+body{
+    height: 100%;
+    margin: 0px;
+}
+.contain-visitor-result{
+    /* display: block; */
+    background-image: url("./img/visitorback.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
+}
+.visitor-dorm-block{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 100px;
+    background-color: white;
+    margin-top: 20px; 
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+   
+}
+
+.visitor-dorm-block label{
+    color: #616161;
+    font-size: 48px;
+    margin-left: 20px;
+}
+
+
+.visitor-dorm-block img{
+    float: left;
+    border-radius: 5px 0 0 5px ;
+}

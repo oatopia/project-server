@@ -1,0 +1,41 @@
+
+.NavAdmin-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.homehomelogo-Admin{
+
+}
+
+.profile-NavAdmin{
+    background-color: #F1EDED;
+    width: 150px;
+    height: 55px;
+    border-radius: 5px;
+    font-size: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+img.profilelogo-Admin{
+    margin-right: 10px;
+}
+
+.button-Admin{
+    width: 50px;
+    height: 50px;
+}
+
+.NavAdmin-container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+

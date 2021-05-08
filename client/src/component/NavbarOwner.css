@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.NavOwner-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.profile-NavOwner{
+    background-color: #F1EDED;
+    width: 150px;
+    height: 55px;
+    border-radius: 7px;
+    font-size: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+img.profilelogo{
+    margin-right: 10px;
+}
+
+#but-owner{
+    width: 50px;
+    height: 50px;
+}
+
+.NavOwner-container2{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+

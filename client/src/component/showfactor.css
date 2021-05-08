@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@200&family=Kanit:wght@100&family=Prompt:wght@100;200&display=swap');
+/* font thai */
+.container-visitor{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: white; */
+    text-align: center;
+    margin-bottom: 60px;
+    width: 85%;    
+}
+
+.header2-visitor{
+    /* margin-top: 200px; */
+    padding-top : 10px ;
+    color: black;
+    margin-bottom: 20px;
+    /* background-color: tomato; */
+
+}
+
+
+.select-score{
+    width: 10px;
+}
+
+select{
+    width: 20px;
+    height: 50px;
+}
+
+.detail-visitor{
+    display: flex;
+    align-items: center;
+
+}
+
+.contain-factor-visitor{
+    /* background-color: cadetblue; */
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.showfactor-left-box{
+    padding: 20px;
+    color: rgb(29, 29, 29);
+    font-size: 36px;
+}
+
+.showfactor-left-box h1{
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.showfactor-left-box{
+    text-align: left;
+}
+
+
+
+
+.showfactor-right-box{
+    background-color: rgb(253, 255, 158);
+    padding: 20px;
+}
+/* .containermatch-visitor{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 20px;
+} */
+
+
+.containermatch2-visitor{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto ;   
+}
+
+.button-match-visitor{
+    margin-bottom: 20px;
+    width: 200px;
+    height: 80px;
+}
+
+.img-match-visitor:active{
+    width: 100px;
+    height: 100px;
+}

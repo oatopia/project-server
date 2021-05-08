@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.NavMember-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.logoapp{
+    width: 100;
+}
+
+
+a{
+    margin-right: 30px;
+}
+
+img{
+    margin-right:4px ;
+}
+
+a{
+    font-size: 20px;
+    color: #3F3F3F;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+}
+
+.homelogo-Navbarmember{
+    margin-bottom: 2px;
+}
+
+
+.listmenu-Navbarmember{
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:50px ;
+}
+
+.NavMember-container2{
+    margin-right: 20px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.profile-Navbarmember{
+    background-color: #F1EDED;
+    width: 150px;
+    height: 55px;
+    border-radius: 5px;
+    font-size: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.profilelogo{
+    margin-right: 10px;
+}
+
